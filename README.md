@@ -51,7 +51,7 @@ console.log({ sig });
 - `getSplTokenBalances(conn, owner)` — list SPL token balances via parsed token accounts
 ## Architecture
 
-![ClaudeSDK architecture](./assets/architectureclaude.png) 
+![ClaudeSDK architecture](./assets/architecture.png) 
 ### Trading (memecoins)
 
 ClaudeSDK includes an optional **Jupiter** swap wrapper:
