@@ -49,7 +49,9 @@ console.log({ sig });
 - `getBalanceLamports(conn, pubkey)` — get SOL balance in lamports
 - `transferSol(conn, payer, to, lamports)` — send SOL (signs locally)
 - `getSplTokenBalances(conn, owner)` — list SPL token balances via parsed token accounts
+## Architecture
 
+![ClaudeSDK architecture](./assets/architectureclaude.png) 
 ### Trading (memecoins)
 
 ClaudeSDK includes an optional **Jupiter** swap wrapper:
